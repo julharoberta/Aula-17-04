@@ -1,0 +1,44 @@
+exemplo 1
+
+#Atribuiçãõ de valores na matriz
+minhaPrimeiraMatriz = [["João","José","Joaquim"],[25,30,2]]
+print(minhaPrimeiraMatriz)
+#Método Go horse
+print(minhaPrimeiraMatriz[0][0])
+print(minhaPrimeiraMatriz[0][1])
+print(minhaPrimeiraMatriz[0][2])
+print(minhaPrimeiraMatriz[1][0])
+print(minhaPrimeiraMatriz[1][1])
+print(minhaPrimeiraMatriz[1][2])
+
+------------------------------------------------------------------------------------
+
+exemplo 2
+
+Crie um código para somar duas matrizes 2 x 2 e apresentar o resultado.
+
+matrizA = [[10,50],
+          [-30,900]]
+matrizB = [[-1,9],
+          [100,10]]     
+matrizC = [[0,0],
+          [0,0]]    
+
+for linha in range(2):
+  for coluna in range(2):
+    matrizA[linha][coluna] = int(input(f"Digite o valor da matriz A{linha} e da coluna {coluna} :"))
+
+
+  for coluna in range(2):
+    matrizB[linha][coluna] = int(input(f"Digite o valor da matriz B {linha} e da coluna {coluna} :"))
+
+
+for linha in range(2):
+  for coluna in range(2):
+    matrizC[linha][coluna] = matrizA[linha][coluna] + matrizB[linha][coluna]
+    print(matrizC[linha][coluna])
+
+print(matrizC)
+
+-------------------------------------------------------------------------------
+
